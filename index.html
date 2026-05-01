@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>Pathfinding Visualizer</h1>
+    <p>Compare fundamental AI search algorithms in real-time</p>
+  </header>
+
+  <section class="controls">
+    <label for="algorithm">Algorithm:</label>
+    <select id="algorithm">
+      <option value="bfs">Breadth-First Search (BFS)</option>
+      <option value="dfs">Depth-First Search (DFS)</option>
+    </select>
+
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <main>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>AI Project • Search Algorithms Visualization</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
